@@ -5,7 +5,7 @@ function Footer(props){
         <React.Fragment>
             <hr/>
             <center>
-                <h3> Created By Dhiksha</h3>
+                <h3> Dhiksha</h3>
             </center>
         </React.Fragment>
     )

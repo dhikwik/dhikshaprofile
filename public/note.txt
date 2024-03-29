@@ -5,3 +5,8 @@ https://type.fit/api/quotes - quote
 
 
 News API Key - cac5b1e68c574e1d8e2e03984f048270
+
+
+Client id - 1083724509542-4crgo1u28pknaj54p8t49g3sk1fqp4ss.apps.googleusercontent.com
+
+Client Secret - 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

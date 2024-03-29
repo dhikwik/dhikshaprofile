@@ -3,13 +3,13 @@ import Header from '../Header';
 import Footer from '../Footer';
 import NewsPic from '../../assets/news-image.webp';
 import Emoji from '../../assets/emoji.jpg';
-import {Link,Outlet} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import '../../styles/home.css';
 
-function Home(props){
+function Home({email}){
     return(
         <div>
-            <Header/>
+            <Header email={email}/>
             <div className="container">
                 <h1 className="text-center fw-bold">Hey Champs, Whats on your mind. Are you up for some interesting things</h1>
  
@@ -28,13 +28,12 @@ function Home(props){
                  <div className="text-center">
                  <h2>Mood Lifter</h2>
                 <h5>If you want some positive vibes,Click here</h5>
-                <Link to="/moodLifter"><button type="button" class="btn btn-success">View More</button></Link>
-                <Outlet/>
-                 </div>
+                <Link to="/moodLifter"><button type="button" className="btn btn-success">View More</button></Link>
+                </div>
              </div>
              </div>
             </div>
-               
+            <div class="content-space"></div>
              <Footer/>
         </div>
     )

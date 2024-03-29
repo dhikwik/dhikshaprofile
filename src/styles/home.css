@@ -6,3 +6,24 @@
 .text-content{
     padding-left: 30%
 }
+
+.cardImg{
+    height:200px;
+    width:30%;
+
+}
+
+.card-height{
+    height:500px;   
+ }
+
+ .card-image{
+    height:290px;   
+ }
+
+ .signIn{
+     margin-left:45%;
+ }
+ .content-space{
+    height:100px;
+ }
