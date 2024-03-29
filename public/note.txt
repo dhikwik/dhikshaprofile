@@ -1,0 +1,7 @@
+https://www.boredapi.com/api/activity - task
+
+
+https://type.fit/api/quotes - quote
+
+
+News API Key - cac5b1e68c574e1d8e2e03984f048270
