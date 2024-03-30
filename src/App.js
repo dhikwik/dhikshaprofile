@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { googleLogout, useGoogleLogin } from '@react-oauth/google';
+import { useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import Home from './components/Home/Home'
-import NewsFeed from './components/NewsFeed/NewsFeed';
-import MoodLifter from './components/MoodLifter/MoodLifter'
+import Home from './components/Home/Home.js'
+import NewsFeed from './components/NewsFeed/NewsFeed.js';
+import MoodLifter from './components/MoodLifter/MoodLifter.js'
 
 function App() {
      const [ user, setUser ] = useState([]);
@@ -28,13 +28,10 @@ function App() {
                     .then((res) => {
                         setProfile(res.data);
                         sessionStorage.setItem('email', profile.email);
-                        console.log("p",profile.email)
-
                      })
                     .catch((err) => console.log(err));
             }
-        },
-        [ user ]
+        }
     );
     
     return (

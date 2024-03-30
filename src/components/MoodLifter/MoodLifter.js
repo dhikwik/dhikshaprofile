@@ -8,7 +8,7 @@ const MoodLifter = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [suggestion, setSuggestion] = useState(null);
-
+  
 
   useEffect(() => {
     const fetchData = async () => {
@@ -42,8 +42,8 @@ const MoodLifter = () => {
 
   return (
     <div className="containerPage">
-      <h1 className="title">Looking for some encouragement. Here we go. Research says the one who hears some positive words ,grow healthy</h1>
-         <i><p className="quote-text">{quote.text}</p></i>
+          <h1 className="title">Looking for some encouragement. Here we go. Research says the one who hears some positive words ,grow healthy</h1>
+          <i><p className="quote-text">{quote.text}</p></i>
          <img src = {Sunflower} alt="sunflower" className="img-sunflower"/>
          <h4>How are you feeling today</h4>
          <input/>

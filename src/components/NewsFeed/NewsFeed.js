@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NewsCard from './Newscards'
+import NewsCard from './Newscards.js'
 import axios from 'axios';
 
 const NewsFeed = () => {

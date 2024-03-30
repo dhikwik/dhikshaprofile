@@ -51,4 +51,7 @@
     font-size:40px;
   }
    
-  
+  .radioLabel {
+    display: inline-block; 
+    margin-right: 10px;
+  }
